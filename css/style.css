@@ -1,0 +1,48 @@
+.mainbox{
+    background-color: darksalmon;
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.menu{
+    background-color: gold;
+    width: 600px;
+    text-align: center;
+}
+
+.leftside{
+    background-color: cyan;
+    width: 100px;
+    float: left;
+}
+
+.main{
+    background-color: blueviolet;
+    width: 600px;
+    float: left;
+}
+
+.rightside{
+    background-color: antiquewhite;
+    width: 100px;
+    float: left;
+}
+
+.footer{
+    background-color: darkred;
+
+}
+.menu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: chartreuse;
+    position: relative;
+    top: 8px;
+    font-family: Tahoma, serif;
+    font-size: 14px;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: #fff;
+}
