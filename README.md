@@ -1,2 +1,2 @@
 # rvtesports
-rvtesports majaslapas tests
+rvtesports majaslapa
