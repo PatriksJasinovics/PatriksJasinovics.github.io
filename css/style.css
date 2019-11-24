@@ -13,9 +13,9 @@ body{
 .menu{
     background-color: gold;
     top: 100px;
-    width: 800px;
+    width: 1600px;
     height: 100px;
-    text-align: center;
+    text-align: start;
 }
 
 .leftside{
@@ -26,7 +26,7 @@ body{
 
 .main{
     background-color: blueviolet;
-    width: 800px;
+    width: 1600px;
     height: 300px;
 }
 
@@ -45,7 +45,6 @@ body{
     padding: 7px 7px 7px 7px;
     background-color: brown;
     position: relative;
-    top: 8px;
     font-family: Tahoma, serif;
     font-size: 14px;
 }
@@ -53,9 +52,6 @@ body{
     text-decoration: none;
     color: #fff;
 }
-.menu a:hover{
+.menu>ul>li>a:hover{
     padding:10px 10px 10px 10px;
-}
-img{
-    size: 20px;
 }
