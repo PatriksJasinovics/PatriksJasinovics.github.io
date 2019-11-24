@@ -1,13 +1,20 @@
+body{
+    background-color: darkgreen;
+}
+
+
 .mainbox{
     background-color: darksalmon;
-    width: 800px;
-    margin: 0px auto;
+    width: 1600px;
+    margin: 10px auto;
     text-align: center;
 }
 
 .menu{
     background-color: gold;
-    width: 600px;
+    top: 100px;
+    width: 800px;
+    height: 100px;
     text-align: center;
 }
 
@@ -19,14 +26,14 @@
 
 .main{
     background-color: blueviolet;
-    width: 600px;
-    float: left;
+    width: 800px;
+    height: 300px;
 }
 
 .rightside{
     background-color: antiquewhite;
     width: 100px;
-    float: left;
+    float: right;
 }
 
 .footer{
@@ -35,14 +42,20 @@
 }
 .menu>ul>li{
     display: inline;
-    padding: 10px 10px 10px 10px;
-    background-color: chartreuse;
+    padding: 7px 7px 7px 7px;
+    background-color: brown;
     position: relative;
     top: 8px;
     font-family: Tahoma, serif;
     font-size: 14px;
 }
-.menu>li>a{
+.menu>ul>li>a{
     text-decoration: none;
     color: #fff;
+}
+.menu a:hover{
+    padding:10px 10px 10px 10px;
+}
+img{
+    size: 20px;
 }
